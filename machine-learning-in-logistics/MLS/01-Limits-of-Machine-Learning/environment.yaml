@@ -1,0 +1,28 @@
+name: mlog-exercise
+channels:
+  - conda-forge
+dependencies:
+  - python=3.13
+
+  # Development Experience
+  - jupyterlab>=4.1.0,<5.0.0a0
+  - jupyterlab-spellchecker
+  - jupyterlab-lsp
+  - python-lsp-server[all]
+  - watermark
+
+  # Improved Progress Reports in Jupyter Notebooks
+  - ipywidgets
+  - tqdm
+
+  # Data Science Libraries
+  - numpy
+  - pandas
+  - openpyxl
+  - matplotlib
+  - ipympl
+  - seaborn
+  - scikit-image
+  - imageio
+  - scikit-learn
+  - folium
