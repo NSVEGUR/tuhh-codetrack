@@ -3,3 +3,4 @@ __pycache__
 .vscode
 .venv
 .ipynb_checkpoints
+*.npz
