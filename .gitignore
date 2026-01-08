@@ -4,3 +4,7 @@ __pycache__
 .venv
 .ipynb_checkpoints
 *.npz
+GTSRB/
+GTSRB_Final_Training_Images/
+machine-learning-in-logistics/MLS/03-Traffic-sign-recognition/submission/
+machine-learning-in-logistics/MLS/03-Traffic-sign-recognition/traffic-sign-recognition.zip
