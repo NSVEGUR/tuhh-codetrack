@@ -1,0 +1,15 @@
+\beamer@sectionintoc {1}{Bayesian Motivation and Approximate Model Averaging}{3}{0}{1}
+\beamer@subsectionintoc {1}{1}{Overconfidence in Deep Networks}{3}{0}{1}
+\beamer@subsectionintoc {1}{2}{Classical Dropout vs Bayesian Neural Networks}{4}{0}{1}
+\beamer@subsectionintoc {1}{3}{Dropout as Model Averaging}{5}{0}{1}
+\beamer@sectionintoc {2}{Dropout as Variational Inference}{6}{0}{2}
+\beamer@subsectionintoc {2}{1}{Core Insight}{6}{0}{2}
+\beamer@subsectionintoc {2}{2}{ELBO Perspective}{7}{0}{2}
+\beamer@sectionintoc {3}{Monte Carlo Dropout}{9}{0}{3}
+\beamer@subsectionintoc {3}{1}{MC Approximation}{9}{0}{3}
+\beamer@sectionintoc {4}{Empirical Results and Insights}{10}{0}{4}
+\beamer@subsectionintoc {4}{1}{Quantitative Evaluation}{10}{0}{4}
+\beamer@subsectionintoc {4}{2}{Task-Level Demonstration}{11}{0}{4}
+\beamer@subsectionintoc {4}{3}{Why This is Powerful}{12}{0}{4}
+\beamer@subsectionintoc {4}{4}{Conclusion and Limitations}{13}{0}{4}
+\beamer@sectionintoc {5}{References}{14}{0}{5}

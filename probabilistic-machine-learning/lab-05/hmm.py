@@ -1,5 +1,6 @@
 from typing import Optional, Callable
 import numpy as np
+from scipy.stats import norm
 
 class HiddenMarkovModel:
     """

@@ -10,15 +10,15 @@ class DAGNode:
         return '<' + self.name + '>'
     
     def descendants(self) -> set[DAGNode]:
-        if len(self.children) == 0:
-            return set()
-        result = set()
-        for child in self.children:
-            result.add(child)
-            result |= child.descendants()
-        return result
+        # if len(self.children) == 0:
+        #     return set()
+        # result = set()
+        # for child in self.children:
+        #     result.add(child)
+        #     result |= child.descendants()
+        # return result
     
-    # return self.children | set(child for child in self.descendants())
+        return self.children | set(child for child in self.descendants())
 
 class DAG:
     def __init__(self, V: dict[str, DAGNode], roots: list[str]):

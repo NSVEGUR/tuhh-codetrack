@@ -1,0 +1,68 @@
+\headcommand {\slideentry {0}{0}{1}{1/1}{}{0}}
+\headcommand {\beamer@framepages {1}{1}}
+\headcommand {\slideentry {0}{0}{2}{2/2}{}{0}}
+\headcommand {\beamer@framepages {2}{2}}
+\headcommand {\beamer@sectionpages {1}{2}}
+\headcommand {\beamer@subsectionpages {1}{2}}
+\headcommand {\sectionentry {1}{Bayesian Motivation and Approximate Model Averaging}{3}{Bayesian Motivation and Approximate Model Averaging}{0}}
+\headcommand {\beamer@subsectionpages {3}{2}}
+\headcommand {\beamer@subsectionentry {0}{1}{1}{3}{Overconfidence in Deep Networks}}
+\headcommand {\slideentry {1}{1}{1}{3/3}{Overconfidence in Deep Networks}{0}}
+\headcommand {\beamer@framepages {3}{3}}
+\headcommand {\beamer@subsectionpages {3}{3}}
+\headcommand {\beamer@subsectionentry {0}{1}{2}{4}{Classical Dropout vs Bayesian Neural Networks}}
+\headcommand {\slideentry {1}{2}{1}{4/4}{Classical Dropout vs Bayesian Neural Networks}{0}}
+\headcommand {\beamer@framepages {4}{4}}
+\headcommand {\beamer@subsectionpages {4}{4}}
+\headcommand {\beamer@subsectionentry {0}{1}{3}{5}{Dropout as Model Averaging}}
+\headcommand {\slideentry {1}{3}{1}{5/5}{Dropout as Model Averaging}{0}}
+\headcommand {\beamer@framepages {5}{5}}
+\headcommand {\beamer@sectionpages {3}{5}}
+\headcommand {\beamer@subsectionpages {5}{5}}
+\headcommand {\sectionentry {2}{Dropout as Variational Inference}{6}{Dropout as Variational Inference}{0}}
+\headcommand {\beamer@subsectionpages {6}{5}}
+\headcommand {\beamer@subsectionentry {0}{2}{1}{6}{Core Insight}}
+\headcommand {\slideentry {2}{1}{1}{6/6}{Core Insight}{0}}
+\headcommand {\beamer@framepages {6}{6}}
+\headcommand {\beamer@subsectionpages {6}{6}}
+\headcommand {\beamer@subsectionentry {0}{2}{2}{7}{ELBO Perspective}}
+\headcommand {\slideentry {2}{2}{1}{7/7}{ELBO Perspective}{0}}
+\headcommand {\beamer@framepages {7}{7}}
+\headcommand {\slideentry {2}{2}{2}{8/8}{ELBO Perspective}{0}}
+\headcommand {\beamer@framepages {8}{8}}
+\headcommand {\beamer@sectionpages {6}{8}}
+\headcommand {\beamer@subsectionpages {7}{8}}
+\headcommand {\sectionentry {3}{Monte Carlo Dropout}{9}{Monte Carlo Dropout}{0}}
+\headcommand {\beamer@subsectionpages {9}{8}}
+\headcommand {\beamer@subsectionentry {0}{3}{1}{9}{MC Approximation}}
+\headcommand {\slideentry {3}{1}{1}{9/9}{MC Approximation}{0}}
+\headcommand {\beamer@framepages {9}{9}}
+\headcommand {\beamer@sectionpages {9}{9}}
+\headcommand {\beamer@subsectionpages {9}{9}}
+\headcommand {\sectionentry {4}{Empirical Results and Insights}{10}{Empirical Results and Insights}{0}}
+\headcommand {\beamer@subsectionpages {10}{9}}
+\headcommand {\beamer@subsectionentry {0}{4}{1}{10}{Quantitative Evaluation}}
+\headcommand {\slideentry {4}{1}{1}{10/10}{Quantitative Evaluation}{0}}
+\headcommand {\beamer@framepages {10}{10}}
+\headcommand {\beamer@subsectionpages {10}{10}}
+\headcommand {\beamer@subsectionentry {0}{4}{2}{11}{Task-Level Demonstration}}
+\headcommand {\slideentry {4}{2}{1}{11/11}{Task-Level Demonstration}{0}}
+\headcommand {\beamer@framepages {11}{11}}
+\headcommand {\beamer@subsectionpages {11}{11}}
+\headcommand {\beamer@subsectionentry {0}{4}{3}{12}{Why This is Powerful}}
+\headcommand {\slideentry {4}{3}{1}{12/12}{Why This is Powerful}{0}}
+\headcommand {\beamer@framepages {12}{12}}
+\headcommand {\beamer@subsectionpages {12}{12}}
+\headcommand {\beamer@subsectionentry {0}{4}{4}{13}{Conclusion and Limitations}}
+\headcommand {\slideentry {4}{4}{1}{13/13}{Conclusion and Limitations}{0}}
+\headcommand {\beamer@framepages {13}{13}}
+\headcommand {\beamer@sectionpages {10}{13}}
+\headcommand {\beamer@subsectionpages {13}{13}}
+\headcommand {\sectionentry {5}{References}{14}{References}{0}}
+\headcommand {\slideentry {5}{0}{1}{14/14}{}{0}}
+\headcommand {\beamer@framepages {14}{14}}
+\headcommand {\beamer@partpages {1}{14}}
+\headcommand {\beamer@subsectionpages {14}{14}}
+\headcommand {\beamer@sectionpages {14}{14}}
+\headcommand {\beamer@documentpages {14}}
+\headcommand {\gdef \inserttotalframenumber {14}}
