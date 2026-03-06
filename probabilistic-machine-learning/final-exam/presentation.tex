@@ -203,7 +203,7 @@
 		\item Standard deep neural networks produce \alert{point estimates}.
 		\item Softmax outputs are often misinterpreted as calibrated confidence.
 		\item Far from training data: predictions remain \alert{highly confident}.
-		\item Missing: \textbf{epistemic uncertainty} (model uncertainty).
+		\item Missing: \textbf{epistemic uncertainty}.
 	\end{itemize}
 \end{frame}
 
@@ -233,13 +233,20 @@
 			\textbf{Classical Dropout}
 			\begin{itemize}
 				\item Randomly zero activations
-				\item Prevents co-adaptation
 				\item Interpreted as heuristic regularizer
 				\item No explicit probabilistic view
 				\item Can we view \alert{dropout} as approximate \alert{Bayesian} inference?
 			\end{itemize}
 		\end{column}
 	\end{columns}
+		\bigskip
+	
+	\textbf{Bayesian Perspective:}
+	\[
+	p(y^*|x^*,X,Y)
+	=
+	\int p(y^*|x^*,\omega)p(\omega|X,Y)d\omega
+	\]
 \end{frame}
 
 \subsection{Dropout as Model Averaging}
@@ -252,27 +259,20 @@
 		\item With $K$ units per layer $\Rightarrow 2^K$ possible subnetworks.
 		\item Training with dropout implicitly trains an ensemble of networks
 		with shared weights.
+		\item At test time, classical dropout performs one deterministic forward pass, essentially approximating the ensemble mean.
 	\end{itemize}
 
 	\bigskip
 	
-	\textbf{Bayesian Perspective:}
-	
-	True predictive distribution:
-	\[
-	p(y^*|x^*,X,Y)
-	=
-	\int p(y^*|x^*,\omega)p(\omega|X,Y)d\omega
-	\]
-
-	\bigskip
-	
-	Dropout approximation:
+	Dropout approximation (\alert{Monte Carlo integration}):
 	\[
 	p(y^*|x^*) \approx
 	\frac{1}{T}\sum_{t=1}^T
 	p(y^*|x^*,\omega_t)
 	\]
+
+	If we keep dropout active at test time and sample masks, we approximate the posterior predictive.
+
 
 \end{frame}
 
@@ -305,13 +305,14 @@
 		\[
 		q(\omega)
 		\]
-		\item Bernoulli variational family:
+		\item \alert{Bernoulli} variational family:
 		\[
 		W_i = M_i \cdot \text{diag}(z_{i,j})
 		\]
 		\[
 		z_{i,j} \sim \text{Bernoulli}(p_i)
 		\]
+		\item So Dropout corresponds to \alert{mean field} Bernoulli variational family.
 	\end{itemize}
 
 \end{frame}
@@ -349,8 +350,8 @@
 	\begin{itemize}
 		\item $L_2$ regularization $\leftrightarrow$ Gaussian prior
 		\item Training minimizes KL divergence to posterior
-		\item Equivalent to maximizing the ELBO
 		\item \alert{Standard dropout loss} is equivalent to the \alert{negative ELBO}
+		\item Equivalent to maximizing the ELBO
 	\end{itemize}
 
 \end{frame}
@@ -362,23 +363,8 @@
 		\item Single-layer NN with infinite width $\Rightarrow$ Gaussian Process.
 		\item Dropout introduces multiplicative Bernoulli noise.
 		\item This induces a variational approximation to a Deep GP posterior.
-	\end{itemize}
-
-	\bigskip
-	
-	\[
-	f^{(l)}(x)
-	=
-	W^{(l)} \sigma(f^{(l-1)}(x))
-	\]
-
-	Under dropout:
-	\[
-	W^{(l)} = M^{(l)} \cdot \text{diag}(z)
-	\]
-
-	\begin{itemize}
 		\item Random masks approximate integrating over function space.
+		\item So dropout is not just heuristic regularization, it has a \alert{functional Bayesian interpretation}
 	\end{itemize}
 
 \end{frame}
@@ -424,7 +410,7 @@
 
 	\begin{itemize}
 	\item Variance term captures \alert{epistemic uncertainty}.
-	\item $\tau^{-1} I$ captures model precision (linked to prior).
+	\item $\tau^{-1} I$ captures model precision ($\tau = \frac{pl^2}{2N\lambda}$)
 	\item Uncertainty increases far from training data.
 \end{itemize}
 \end{frame}
@@ -446,9 +432,9 @@
 \end{figure}
 
 \begin{itemize}
-    \item Demonstrates principled Bayesian behavior.
+		\item Demonstrates principled Bayesian behavior.
+		\item BO (Bayesian Optimization) over validation log-likelihood to find optimal $\tau$ (model precision) and $l$ (prior length scale) based on heuristics ($10^{-2}$).
     \item RMSE shows accuracy, Log-Likelihood shows calibrated uncertainty.
-    \item BO (Bayesian Optimization) further improves performance.
 \end{itemize}
 
 \end{frame}
@@ -529,10 +515,10 @@
 	\begin{alertblock}{Limitations}
 
 	\begin{itemize}
-		\item Variational family is mean-field Bernoulli: cannot represent multimodal posteriors.
-		\item KL$(q||p)$ is mode-seeking: underestimates posterior variance.
 		\item Prior is implicitly tied to weight decay coefficient.
 		\item Approximation quality depends on dropout rate choice.
+		\item Variational family is mean-field Bernoulli: cannot represent multimodal posteriors.
+		\item KL$(q||p)$ is mode-seeking: underestimates posterior variance.
 	\end{itemize}
 
 	\end{alertblock}

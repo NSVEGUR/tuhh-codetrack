@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2026.2.26)  3 MAR 2026 17:08
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2026.2.26)  4 MAR 2026 22:47
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -806,7 +806,7 @@ LaTeX Font Info:    Font shape `OT1/opensans-TLF/b/n' will be
 <Images/table-1.png, id=369, 613.29124pt x 194.7275pt>
 File: Images/table-1.png Graphic file (type png)
 <use Images/table-1.png>
-Package pdftex.def Info: Images/table-1.png  used on input line 454.
+Package pdftex.def Info: Images/table-1.png  used on input line 440.
 (pdftex.def)             Requested size: 256.72147pt x 81.51161pt.
 
 
@@ -816,23 +816,23 @@ Package pdftex.def Info: Images/table-1.png  used on input line 454.
 <Images/figure-2.png, id=398, 1364.09625pt x 484.81125pt>
 File: Images/figure-2.png Graphic file (type png)
 <use Images/figure-2.png>
-Package pdftex.def Info: Images/figure-2.png  used on input line 492.
+Package pdftex.def Info: Images/figure-2.png  used on input line 478.
 (pdftex.def)             Requested size: 145.57596pt x 51.7389pt.
 LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <10> not available
-(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 492.
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 478.
 LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <7> not available
-(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 492.
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 478.
 LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <5> not available
-(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 492.
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 478.
 <Images/figure-4.png, id=399, 741.77126pt x 244.915pt>
 File: Images/figure-4.png Graphic file (type png)
 <use Images/figure-4.png>
-Package pdftex.def Info: Images/figure-4.png  used on input line 492.
+Package pdftex.def Info: Images/figure-4.png  used on input line 478.
 (pdftex.def)             Requested size: 156.70468pt x 51.7401pt.
 <Images/figure-6.png, id=400, 361.35pt x 303.1325pt>
 File: Images/figure-6.png Graphic file (type png)
 <use Images/figure-6.png>
-Package pdftex.def Info: Images/figure-6.png  used on input line 492.
+Package pdftex.def Info: Images/figure-6.png  used on input line 478.
 (pdftex.def)             Requested size: 92.52072pt x 77.6146pt.
 
 
@@ -844,16 +844,16 @@ Package pdftex.def Info: Images/figure-6.png  used on input line 492.
 
 ]
 LaTeX Font Info:    Font shape `OT1/opensans-TLF/m/n' will be
-(Font)              scaled to size 12.0pt on input line 540.
+(Font)              scaled to size 12.0pt on input line 526.
 
 
 [13
 
 ]
 LaTeX Font Info:    Font shape `OT1/opensans-TLF/m/n' will be
-(Font)              scaled to size 9.0pt on input line 556.
+(Font)              scaled to size 9.0pt on input line 542.
 LaTeX Font Info:    Font shape `OT1/opensans-TLF/m/it' will be
-(Font)              scaled to size 9.0pt on input line 556.
+(Font)              scaled to size 9.0pt on input line 542.
 
 
 [14
@@ -877,15 +877,15 @@ Package rerunfilecheck Info: File `presentation.out' has not changed.
 (rerunfilecheck)             Checksum: A5B2ED2E849EFD09C235CDB9F0C6A99C;2802.
  ) 
 Here is how much of TeX's memory you used:
- 22717 strings out of 473190
- 443466 string characters out of 5715800
+ 22718 strings out of 473190
+ 443472 string characters out of 5715800
  801256 words of memory out of 5000000
  45421 multiletter control sequences out of 15000+600000
- 584509 words of font info for 101 fonts, out of 8000000 for 9000
+ 585663 words of font info for 102 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  128i,15n,123p,553b,737s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2025/texmf-dist/fonts/type1/ascender/opensans/OpenSans-Bold.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/ascender/opensans/OpenSans-Italic.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/ascender/opensans/OpenSans-Regular.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on presentation.pdf (14 pages, 1310071 bytes).
+Output written on presentation.pdf (14 pages, 1310300 bytes).
 PDF statistics:
  610 PDF objects out of 1000 (max. 8388607)
  511 compressed objects within 6 object streams
